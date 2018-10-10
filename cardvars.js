@@ -1,4 +1,5 @@
 module.exports = {
+    cardColorNames: [ 'diamonds', 'hearts', 'spades','cross'],
     cardColors : [ '\u2660', '\u2663', '\u2665', '\u2666'],
     cardFaces : [ '2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K', 'A'],
     cardValues : [
@@ -15,6 +16,12 @@ module.exports = {
         ['4', 4], 
         ['3', 3], 
         ['2', 2]
+    ],
+    cardColorMap : [ 
+        ['diamonds', '\u2666'], 
+        ['hearts', '\u2665',], 
+        ['spades','\u2660',], 
+        ['cross', '\u2663',]
     ]   
 }
 
